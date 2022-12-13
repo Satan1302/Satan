@@ -1,0 +1,12 @@
+# Program to find the given number is a palindrome or not
+# Pyhton 3 code
+num = int(input('Enter the number to be checked '))
+revnum = 0
+temp = num
+while (temp > 0) :
+  revnum = (revnum*10) + (temp % 10)
+  temp = temp // 10
+  if (num == revnum) :
+    print ('True')
+  else :
+    print ('False')
