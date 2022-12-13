@@ -1,0 +1,18 @@
+# Program  to check print all prime numbers till n
+n = int (input ('Enter the number '))
+if (n==1) :
+    print ('No Prime numbers occur till ', n)
+elif (n>1) :
+    i=2
+    while (i<=n) :
+        j=2
+        flag = False
+        while (j<i) :
+            if (i%j==0) :
+                flag = True
+            j=j+1
+        if not(flag) :
+            print (i)
+        i=i+1
+else :
+    print ('No prime numbers occur till ', n)
