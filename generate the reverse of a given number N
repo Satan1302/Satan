@@ -1,0 +1,13 @@
+# Generate the reverse of a given number N
+# If a number has trailing zeros, then its reverse will not include them. For e.g., reverse of 10400 will be 401 instead of 00401.
+# Python3 Code
+num = int (input('Enter Number '))
+revnum = 0
+while (num>0) :
+    if (num%10 != 0) :
+        revnum = (revnum*10) + (num%10)
+        num = num // 10
+    else :
+        revnum = (revnum*10)
+        num = num // 10
+print (revnum)
