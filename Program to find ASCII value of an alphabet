@@ -1,0 +1,4 @@
+# Program to find ASCII value of an alphabet
+n = str(input('Enter the Alphabet  '))
+asci = ord (n)
+print ('The ASCII value is' , asci)
