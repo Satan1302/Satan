@@ -1,0 +1,5 @@
+# Program to find nth character in Alphabet
+# Python code
+n = int (input('Which charcter you want to find '))
+res = chr (ord('A')+(n-1))
+print (res)
