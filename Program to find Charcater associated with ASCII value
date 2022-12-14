@@ -1,0 +1,5 @@
+# Program to find Charcater associated with ASCII value 
+# Python Code
+n = int(input('Enter the ASCII value '))
+char = chr (n)
+print ('The character associated to entered ASCII value is', char)
